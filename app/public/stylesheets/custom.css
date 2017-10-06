@@ -1,0 +1,30 @@
+h1 {
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+h4 {
+  color: white;
+}
+
+li {
+  color: white;
+  margin: -0.5em;
+}
+
+.comedian {
+  columns: 3;
+}
+
+body {
+  background-image: url('http://zingerzcomedyclub.com/wp-content/uploads/2014/11/o-STAGE-MICROPHONE-facebook.jpg');
+  background-size: 100% 100%;
+}

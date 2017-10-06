@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/stylesheets/custom.css">
+  </head>
+  <body>
+    <h1>Comedians</h1>
+    <div class="comedian">
+      <% @comedians.each do |comedian| %>
+      <h2>Name: <%= comedian.name %></h1>
+      <h2>Age: <%= comedian.age %></h2>
+      <ul>
+        <%comedian.specials.each do |special| %>
+        <li><h4><%= special.name %></h4></li>
+        <% end %>
+      </ul>
+      <h3>Comedian Specials: <%= comedian.specials.count %></h3>
+      <% end %>
+    </div>
+
+    <h2>Average Age: <%= Comedian.average_age.floor %></h2>
+  </body>
+</html>
